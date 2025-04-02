@@ -1,9 +1,16 @@
-.resultadoIMCGroup {
-    display: flex;
-}
-
 .calcCorpo {
     border: 1px solid rgb(255, 0, 0);
     padding: 30px;
     border-radius: 30px;
+}
+
+.mostraImc {
+    color: rgb(7, 159, 7);
+    justify-content: center;
+}
+
+.text {
+    border-bottom: 2px solid rgb(7, 159, 7);
+    font-weight: 700;
+    font-size: 30px;
 }
