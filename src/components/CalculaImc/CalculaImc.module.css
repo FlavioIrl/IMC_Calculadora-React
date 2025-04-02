@@ -1,0 +1,30 @@
+.iconText {
+    font-size:20px ;
+}
+
+.title {
+    font-size: 40px;
+}
+
+.text {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.calcular{
+    display: flex;
+    align-items: center;
+}
+
+.undMedida {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btnCalcular {
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-inline: 30%;
+    font-weight: 600;
+    font-size: 2rem;
+}
