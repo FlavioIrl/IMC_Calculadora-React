@@ -1,16 +1,29 @@
 .calcCorpo {
-    border: 1px solid rgb(255, 0, 0);
     padding: 30px;
     border-radius: 30px;
 }
 
+.mostraClasse{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+
+    justify-content: center;
+}
 .mostraImc {
     color: rgb(7, 159, 7);
     justify-content: center;
 }
 
 .text {
-    border-bottom: 2px solid rgb(7, 159, 7);
+    border-bottom: 1px solid rgb(177, 177, 177);
     font-weight: 700;
     font-size: 30px;
+}
+
+.pMensagem{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px 0 20px ;
+    text-align: center;
 }

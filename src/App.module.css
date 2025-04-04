@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(241, 242, 255);
+    background-color: var(--cor-fundo);
 }
 
 .container {
@@ -7,7 +7,16 @@ body {
 }
 
 .calcCorpo {
-    border: 1px solid rgb(255, 0, 0);
+    border: 2px solid rgb(47, 124, 240);
     padding: 30px;
     border-radius: 30px;
+}
+
+:root {
+    --cor-fundo:rgb(247, 248, 252);
+    --cor-magreza: rgb(255, 57, 31);
+    --cor-normal: rgb(21, 177, 21);
+    --cor-sobrepeso: rgb(248, 185, 13);
+    --cor-obesidade: rgb(255, 57, 31);
+    --cor-padrao: rgb(47, 124, 240);
 }
