@@ -28,7 +28,7 @@ function CalculadoraImc({ setImc }) {
                 <input type="number" className='form-control shadow-sm' value={altura} onChange={e => setAltura(e.target.value)} placeholder='Ex: 180' />
             </div>
             <div className={styles.calcular}>
-                <button onClick={calculaImc} className={`btn btn-success ${styles.btnCalcular}`}> <i className="bi bi-calculator-fill me-2"></i>Calcular</button>
+                <button onClick={calculaImc} className={`btn btn-success mt-5 ${styles.btnCalcular}`}> <i className="bi bi-calculator-fill me-2"></i>Calcular</button>
             </div>
         </div>
     )
